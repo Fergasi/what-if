@@ -5,7 +5,7 @@ let age = Number(prompt('Enter your age as a number: '));
 if (age < 16) {
     //do this
     console.log("You can't drive");
-} else if (age >= 16 && age <= 17) {
+} else if (age === 16 || age === 17) {
     //do this
     console.log("You can drive but not vote.");
 } else if (age >= 18 && age <= 24) {
